@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Console\CommandList">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="ImprovingMartinHaaningProdukOpretter" xsi:type="object">Improving\MartinHaaning\Console\Command\ProdukOpretterCommand</item>
+                <item name="ImprovingMartinHaaningOpretKat" xsi:type="object">Improving\MartinHaaning\Console\Command\OpretKatCommand</item>
+                <item name="ImprovingMartinHaaningFlytProdukt" xsi:type="object">Improving\MartinHaaning\Console\Command\FlytProduktCommand</item>
+                <item name="ImprovingMartinHaaningEditAttributes" xsi:type="object">Improving\MartinHaaning\Console\Command\EditAttributesCommand</item>
+                <item name="ImprovingMartinHaaningAssignattributes" xsi:type="object">Improving\MartinHaaning\Console\Command\AssignattributesCommand</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
